@@ -21,6 +21,24 @@ Route::get('/',[
     'uses'=> 'articleController@index',
 ]);
 
+//login and register
+Route::get('/login',[
+    'as' =>'auth.login',
+    'uses'=> 'AdminController@getlogin',
+]);
+Route::post('/login',[
+    'as' =>'auth.login',
+    'uses'=> 'AdminController@postlogin',
+]);
+Route::get('/register',[
+    'as' =>'auth.register',
+    'uses'=> 'AdminController@getregister',
+]);
+Route::post('/register',[
+    'as' =>'auth.register',
+    'uses'=> 'AdminController@postregister',
+]);
+// end login and register
 Route::get('/admin',[
     'as'=>'admin',
     'uses'=>'manageController@admin',

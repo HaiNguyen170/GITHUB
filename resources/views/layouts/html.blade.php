@@ -24,7 +24,7 @@
 <hr>
 <div class="container">
     <div class="row text-center">
-        <div col-sm-12>
+        <div  class="col-sm-12">
             <p>CopyRight &copy; 2020, by HNTT</p>
         </div>
     </div>

@@ -1,10 +1,11 @@
-@extends('layouts.app')
-
-@section('content')
-<div class="container">
+@extends('layouts.html')
+@section('title')
+    <title>Register page</title>
+@endsection
+@section('body')
     <div class="row justify-content-center">
         <div class="col-md-8">
-            <h1>Login page</h1>
+            <h1>Register page</h1>
         </div>
         <div class="col-md-8">
             <div class="card">
